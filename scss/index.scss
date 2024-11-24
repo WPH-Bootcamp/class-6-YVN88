@@ -7,21 +7,23 @@
 }
 
 .title-1 {
-  color: get-color('brand', '400');
+  color: get-color('brand', '200');
 }
 
 .title-2 {
-  color: get-color('warning', '600');
+  color: get-color('warning', '700');
 }
 
 .title-3 {
-  color: get-color('error', '500');
+  color: get-color('error', '700');
 }
 
 .title-4 {
-  color: get-color('success', '700');
+  color: get-color('success', '300');
 }
 
 .title-5 {
-  color: get-color('gray', '600');
+  // color: get-color('gray', '500');
+
+  color: rgba(get-color('warning', '500'), 0.2);
 }
